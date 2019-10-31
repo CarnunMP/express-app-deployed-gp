@@ -1,0 +1,2 @@
+node_modules/
+# Trailing slash ensures node_modules is ignored wherever it is!
