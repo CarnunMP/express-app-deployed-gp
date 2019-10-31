@@ -3,3 +3,5 @@ node_modules/
 
 /.env
 # Leading slash focuses on the .env in _this_ folder.
+
+/.vscode
