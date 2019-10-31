@@ -1,8 +1,10 @@
+require('dotenv').config();
+
 const express = require('express');
 const cors = require('cors');
 
 const server = express();
-const port = process.env.PORT || 4000;
+const port = process.env.PORT;
 const friends = [
   { id: 1, name: 'Shaun'},
   { id: 2, name: 'Megan'},
