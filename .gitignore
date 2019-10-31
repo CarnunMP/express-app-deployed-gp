@@ -1,2 +1,5 @@
 node_modules/
 # Trailing slash ensures node_modules is ignored wherever it is!
+
+/.env
+# Leading slash focuses on the .env in _this_ folder.
