@@ -11,6 +11,7 @@ const friends = [
   { id: 3, name: 'Pere'},
 ];
 
+server.use(express.static(__dirname + '/client/build'));
 server.use(express.json());
 server.use(cors());
 
